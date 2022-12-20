@@ -1,0 +1,105 @@
+.basket {
+    margin: 0 30px;     padding-bottom: 162px;
+}
+
+.basket_item {
+    display: flex;    border-bottom: 2px solid #ececec;     padding: 10px 0;
+}
+
+.basket_item img {
+    width: 32px;
+    height: 44px;
+}
+
+.basket_item label {
+    font-size: 11px;
+    color: #454545;
+    font-family: HelveticaNeueCyr-Roman;
+    margin-right: 45px;
+    margin-left: 25px;
+}
+
+.basket_item_price {
+    width: 22%;
+    position: relative;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.basket_item_price b {
+    color: #010101;
+    font-size: 14px;
+    font-family: HelveticaNeueCyr-Roman;    text-align: right;
+}
+
+.basket_item_col {
+    display: flex;
+    margin-top: auto;
+}
+
+.basket_item_col div {
+    color: #ffffff;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    min-width: 15px;
+    background: #454545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;transition: all 0.2s ease-in-out;
+}
+
+.basket_item_col div:hover{
+    opacity: 0.7;
+}
+
+.basket_item_col input {
+    font-family: HelveticaNeueCyr-Roman;
+    color: #010101;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    padding: 0 7px;
+}
+
+.basket_item:last-child{
+    border-bottom: 2px solid transparent;
+}
+
+.basket_item:first-child{
+    border-bottom: 2px solid #ececec;
+}
+
+.scoreboard{
+    position: fixed;
+    bottom: 63px;
+    width: 100%;
+
+    padding: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #ececec;
+    background: #fffffff7;
+    left: 0;
+}
+
+.scoreboard .scoreboard_text{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreboard .scoreboard_text p{
+    font-size: 14px;
+}
+
+.scoreboard .scoreboard_text p:last-child{
+    color: #010101; font-weight: 600;
+}
+
+.basket_error{
+    text-align: center;
+    font-size: 14px;
+    color: #454545;
+}
